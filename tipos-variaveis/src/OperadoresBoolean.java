@@ -31,7 +31,13 @@ public class OperadoresBoolean {
         String nomeUm = "LUIZ";
         String nomeDois = "LUIZ";
 
+
+        //FUNCIONA MAS  NÃO É O MAIS CORRETO, É RECOMENDADO QUANDO SE TRATA DE NUMEROS
         System.out.println(nomeUm == nomeDois);
+
+        //FUNCIONA E É O MAIS CORRETO POIS COMPARA OBJETOS INTEIROS, RECOMENDADO QUANDO SE USA STRING
+        System.out.println(nomeUm.equals(nomeDois));
+
 
         int N1 = 1;
         int N2 = 2;
