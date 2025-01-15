@@ -1,6 +1,6 @@
 public class OperadoresBoolean {
     //PARTE DE COMPARAÇÃO
-    public static void soma(){
+    public static void main(String[] args){
 
         //JEITO COMUM////////////////////////////
         int a, b;
